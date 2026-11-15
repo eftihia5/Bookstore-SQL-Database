@@ -11,12 +11,12 @@
 ### 1. Conceptual Schema (ER Diagram)
 The database was initially mapped out using an Entity-Relationship diagram, defining the core entities (Customer, Book, Author, Publisher, Warehouse) and their relationships.
 
-![Conceptual Schema](project.drawio.png)
+<img src="project.drawio.png" alt="Conceptual Schema" width="500">
 
 ### 2. Logical Schema (Relational Model)
 The ER diagram was translated into a relational schema. This structure ensures referential integrity using primary and foreign keys, supporting complex features like shopping carts (`ΚΑΛΑΘΙ_ΑΓΟΡΩΝ`) and many-to-many relationships between authors and books (`ΒΣ`).
 
-![Logical Schema](project_DB.png)
+<img src="project_DB.png" alt="Logical Schema" width="500">
 
 ## How to Use
 1. Clone this repository:
